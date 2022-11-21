@@ -1,79 +1,19 @@
-<?php
+<?php get_header(); ?>
 
-get_header();
+<!--==================================
+BANNER
+====================================-->
+<?php include("modules/banner-index.php"); ?>
 
-?>
+<!--==================================
+BUSCADOR PARA MOVIL
+====================================-->
+<?php include("modules/buscador-movil.php"); ?>
 
-      <!--=====================================
-      =                BANNER                 =
-      ======================================-->
-      <div class="bannerEstatico"></div>
-      <!-- <div class="container-fluid p-0"> -->
-        <section class="jd-slider fade-slider">
-          <div class="slide-inner">
-            <ul class="slide-area">
-              <!-- CAMBIAR LAS IMAGENES DEL BANNER -->
-              <li>
-                <img src="img/banner01.jpg" alt="" class="img-fluid">
-              </li>
-              <li>
-                <img src="img/banner02.jpg" alt="" class="img-fluid">
-              </li>
-              <li>
-                <img src="img/banner03.jpg" alt="" class="img-fluid">
-              </li>
-              <li>
-                <img src="img/banner04.gif" alt="" class="img-fluid">
-              </li>
-            </ul>
-          </div>
-          <div class="controller d-none">
-            <a class="auto" href="#">
-              <i class="fas fa-play fa-xs"></i>
-              <i class="fas fa-pause fa-xs"></i>
-            </a>
-            <div class="indicate-area"></div>
-          </div>
-        </section>
-      <!-- </div> -->
-
-      <!-- BUSCADOR PARA MÓVIL -->
-
-<div class="container d-block d-md-none py-3 pr-2">
-  <div class="input-group input-group-sm">
-    <input type="text" class="form-control" placeholder="Buscar">
-    <div class="input-group-append">
-      <span class="input-group-text"><i class="fas fa-search"></i></span>
-    </div>
-  </div>
-</div>
-
-<!-- MENU -->
-<div class="container-fluid menu">
-
-  <a href="#" class="btnClose">X</a>
-  <ul class="nav flex-column text-center">
-    <li class="nav-item">
-      <a class="nav-link text-white" href="categorias.html">Noticias de hoy</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link text-white" href="categorias.html">Nuevos lanzamientos</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link text-white" href="categorias.html">Próximos lanzamientos</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link text-white" href="categorias.html">Lo mejor de 2022</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link text-white" href="categorias.html">Lo mejor de todos los tiempos</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link text-white" href="categorias.html">Top videojuegos gratis</a>
-    </li>
-  </ul>
-</div>
-
+<!--==================================
+ MENU 
+====================================-->
+<?php include("modules/menu.php"); ?>
 
 <!--=====================================
 GRID DE CATEGORIAS
@@ -90,30 +30,29 @@ GRID DE CATEGORIAS
           <p class="text-uppercase p-1 p-md-3 p-xl-4">Lanzamiento de Soul Hackers 2</p>
         </figure>
         <figure class="d-block d-md-none p-2 bg-warning photo6" vinculo="categorias.html">
-           <p class="text-uppercase p-1 p-md-3 p-xl-4">Video Juegos más populares de este año</p>
+          <p class="text-uppercase p-1 p-md-3 p-xl-4">Video Juegos más populares de este año</p>
         </figure>
       </div>
 
       <div class="d-flex flex-column flex-fill columna2">
         <div class="d-block d-md-flex">
-          
+
           <figure class="p-2 bg-success flex-fill photo3" vinculo="categorias.html">
-             <p class="text-uppercase p-1 p-md-3 p-xl-4">Mejores remakes de la década</p>
+            <p class="text-uppercase p-1 p-md-3 p-xl-4">Mejores remakes de la década</p>
           </figure>
           <figure class="p-2 bg-primary flex-fill photo4" vinculo="categorias.html">
-             <p class="text-uppercase p-1 p-md-3 p-xl-4">Próximos lanzamientos</p>
+            <p class="text-uppercase p-1 p-md-3 p-xl-4">Próximos lanzamientos</p>
           </figure>
-          
-        </div>  
+
+        </div>
 
         <figure class="p-2 bg-danger photo5" vinculo="categorias.html">
-           <p class="text-uppercase p-1 p-md-3 p-xl-4">Nuevo DLC de la franquicia Monster Hunter</p>
+          <p class="text-uppercase p-1 p-md-3 p-xl-4">Nuevo DLC de la franquicia Monster Hunter</p>
         </figure>
 
       </div>
 
     </div>
-
   </div>
 </div>
 <!--=====================================
@@ -142,14 +81,15 @@ CONTENIDO BLOG
           <div class="col-12 col-lg-7 introArticulo">
 
             <a href="articulos.html">
-             <h4 class="d-none d-lg-block">Top juegos gratuitos</h4>
+              <h4 class="d-none d-lg-block">Top juegos gratuitos</h4>
             </a>
-            <p class="my-2 my-lg-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo facere eligendi impedit reprehenderit earum quia est.</p>
+            <p class="my-2 my-lg-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo facere eligendi
+              impedit reprehenderit earum quia est.</p>
 
             <a href="articulos.html" class="float-right">Leer Más</a>
 
             <div class="d-none d-lg-block fecha">30.09.2022</div>
-            
+
           </div>
         </div>
         <hr class="mb-4 mb-lg-5" style="border: 1px solid #59A8DE">
@@ -159,7 +99,7 @@ CONTENIDO BLOG
 
           <div class="col-12 col-lg-5">
             <a href="articulos.html">
-             <h5 class="d-block d-lg-none py-3">Lanzamiento de OW2</h5>
+              <h5 class="d-block d-lg-none py-3">Lanzamiento de OW2</h5>
             </a>
             <div class="d-block d-sm-block d-lg-none fecha mt-3">30.09.2022</div>
 
@@ -169,14 +109,15 @@ CONTENIDO BLOG
 
           <div class="col-12 col-lg-7 introArticulo">
             <a href="articulos.html">
-             <h4 class="d-none d-lg-block">Lanzamiento de OW2</h4>
+              <h4 class="d-none d-lg-block">Lanzamiento de OW2</h4>
             </a>
-            <p class="my-2 my-lg-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo facere eligendi impedit reprehenderit earum quia est.</p>
+            <p class="my-2 my-lg-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo facere eligendi
+              impedit reprehenderit earum quia est.</p>
 
             <a href="articulos.html" class="float-right">Leer Más</a>
 
             <div class="d-none d-lg-block fecha">30.09.2022</div>
-            
+
           </div>
         </div>
         <hr class="mb-4 mb-lg-5" style="border: 1px solid #59A8DE">
@@ -202,19 +143,20 @@ CONTENIDO BLOG
 
           <div class="col-12 col-lg-7 introArticulo">
             <a href="articulos.html">
-             <h4 class="d-none d-lg-block">¿Dónde está Xur?</h4>
+              <h4 class="d-none d-lg-block">¿Dónde está Xur?</h4>
             </a>
-            <p class="my-2 my-lg-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo facere eligendi impedit reprehenderit earum quia est.</p>
+            <p class="my-2 my-lg-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo facere eligendi
+              impedit reprehenderit earum quia est.</p>
 
             <a href="articulos.html" class="float-right">Leer Más</a>
 
             <div class="d-none d-lg-block fecha">30.09.2022</div>
-            
+
           </div>
         </div>
         <hr class="mb-4 mb-lg-5" style="border: 1px solid #59A8DE">
 
-      <!-- ARTICULO 04 -->
+        <!-- ARTICULO 04 -->
         <div class="row">
 
           <div class="col-12 col-lg-5">
@@ -229,14 +171,15 @@ CONTENIDO BLOG
 
           <div class="col-12 col-lg-7 introArticulo">
             <a href="articulos.html">
-             <h4 class="d-none d-lg-block">Rhapsody's Remix Event</h4>
+              <h4 class="d-none d-lg-block">Rhapsody's Remix Event</h4>
             </a>
-            <p class="my-2 my-lg-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo facere eligendi impedit reprehenderit earum quia est.</p>
+            <p class="my-2 my-lg-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo facere eligendi
+              impedit reprehenderit earum quia est.</p>
 
             <a href="articulos.html" class="float-right">Leer Más</a>
 
             <div class="d-none d-lg-block fecha">30.09.2022</div>
-            
+
           </div>
         </div>
         <hr class="mb-4 mb-lg-5" style="border: 1px solid #59A8DE">
@@ -258,12 +201,13 @@ CONTENIDO BLOG
             <a href="articulos.html">
               <h4 class="d-none d-lg-block">Venta de otoño de Ubisoft</h4>
             </a>
-            <p class="my-2 my-lg-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo facere eligendi impedit reprehenderit earum quia est.</p>
+            <p class="my-2 my-lg-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo facere eligendi
+              impedit reprehenderit earum quia est.</p>
 
             <a href="articulos.html" class="float-right">Leer Más</a>
 
             <div class="d-none d-lg-block fecha">30.09.2022</div>
-            
+
           </div>
         </div>
         <hr class="mb-4 mb-lg-5" style="border: 1px solid #59A8DE">
@@ -271,19 +215,14 @@ CONTENIDO BLOG
         <div class="container d-none d-md-block">
           <ul class="pagination justify-content-center"></ul>
         </div>
+      </div>
+      <!-- COLUMNA DERECHA -->
+      <?php get_sidebar(); ?>
     </div>
-
-    
-
-<?php
-get_sidebar();
-?>
-
-            </div>
-        </div>
-    </div>
+  </div>
 </div>
 
-<?php
-get_footer();
-?>
+<!--==================================
+FOOTER
+====================================-->
+<?php get_footer(); ?>

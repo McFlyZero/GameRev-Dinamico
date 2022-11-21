@@ -5,81 +5,16 @@ get_header();
 <!--=====================================
 BANNER                 
 ======================================-->
-<?php include("modules/banner-interior.php")?>
+<?php include("modules/banner-interior.php") ?>
 
 <!--=====================================
 BUSCADOR PARA MÓVIL
 ======================================-->
-<?php include("modules/buscador-movil.php")?>
+<?php include("modules/buscador-movil.php") ?>
 <!--=====================================
 MENU    
 ======================================-->
-<?php include("modules/menu.php")?>
-
-     <!--=====================================
-      =                BANNER                 =
-      ======================================-->
-      <div class="bannerEstatico">
-        <section class="jd-slider fade-slider-Banner fade-slider">
-          <div class="slide-inner">
-            <ul class="slide-area">
-              <!-- CAMBIAR LAS IMAGENES DEL BANNER -->
-              <li>
-
-                <div class="d-none d-md-block textoBanner">
-                  <h1>Watch how we work</h1>
-                  <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, ad, laudantium.</h5>
-                </div>
-                <img src="img/banner01.jpg" alt="" class="img-fluid">
-              </li>
-            </ul>
-          </div>
-          <div class="controller d-none">
-            <a class="auto" href="#">
-              <i class="fas fa-play fa-xs"></i>
-              <i class="fas fa-pause fa-xs"></i>
-            </a>
-            <div class="indicate-area"></div>
-          </div>
-        </section>
-      </div>
-
-      <!-- BUSCADOR PARA MÓVIL -->
-
-<div class="container d-block d-md-none py-3 pr-2">
-  <div class="input-group input-group-sm">
-    <input type="text" class="form-control" placeholder="Buscar">
-    <div class="input-group-append">
-      <span class="input-group-text"><i class="fas fa-search"></i></span>
-    </div>
-  </div>
-</div>
-
-<!-- MENU -->
-<div class="container-fluid menu">
-
-  <a href="#" class="btnClose">X</a>
-  <ul class="nav flex-column text-center">
-    <li class="nav-item">
-      <a class="nav-link text-white" href="categorias.html">Noticias de hoy</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link text-white" href="categorias.html">Nuevos lanzamientos</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link text-white" href="categorias.html">Próximos lanzamientos</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link text-white" href="categorias.html">Lo mejor de 2022</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link text-white" href="categorias.html">Lo mejor de todos los tiempos</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link text-white" href="categorias.html">Top videojuegos gratis</a>
-    </li>
-  </ul>
-</div>
+<?php include("modules/menu.php") ?>
 
 <!--=====================================
 CONTENIDO BLOG
@@ -88,22 +23,19 @@ CONTENIDO BLOG
   <div class="container">
 
     <!-- BREADCRUMB -->
-      <a href="categorias.html">
-        
-        <button class="d-block d-sm-none btn btn-info btn-sm mb-2">
-          
-          REGRESAR
+    <a href="categorias.html">
+      <button class="d-block d-sm-none btn btn-info btn-sm mb-2">
+        REGRESAR
+      </button>
 
-        </button>
-
-      </a>
+    </a>
 
     <ul class="breadcrumb bg-white p-0 mb-2 mb-md-4 breadArticulo">
 
       <li class="breadcrumb-item inicio"><a href="index.html">Inicio</a></li>
       <li class="breadcrumb-item"><a href="categorias.html">Novedades</a></li>
       <li class="breadcrumb-item active">Persona 5 llega a Xbox</li>
-      
+
     </ul>
 
 
@@ -117,7 +49,7 @@ CONTENIDO BLOG
         <div class="container">
 
           <div class="d-flex">
-            
+
             <div class="fechaArticulo">22.10.2022</div>
 
             <h3 class="tituloArticulo text-right text-muted pl-3 pt-lg-2">Persona 5 llega a Xbox</h3>
@@ -126,14 +58,23 @@ CONTENIDO BLOG
 
           <img src="img/articulo10.jpg" alt="Lorem ipsum dolor sit amet" class="img-fluid my-lg-3">
 
-          <p class="textoArticulo my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione unde recusandae voluptates pariatur sapiente nostrum iusto, laudantium facilis, ab harum optio veritatis doloremque dolore aspernatur fuga error delectus. Nesciunt, debitis.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+          <p class="textoArticulo my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione unde recusandae
+            voluptates pariatur sapiente nostrum iusto, laudantium facilis, ab harum optio veritatis doloremque dolore
+            aspernatur fuga error delectus. Nesciunt, debitis.Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 
           <!-- PUBLICIDAD -->
           <img src="img/ad09.png" class="img-fluid my-3" width="100%">
 
-          <p class="textoArticulo my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione unde recusandae voluptates pariatur sapiente nostrum iusto, laudantium facilis, ab harum optio veritatis doloremque dolore aspernatur fuga error delectus. Nesciunt, debitis.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+          <p class="textoArticulo my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione unde recusandae
+            voluptates pariatur sapiente nostrum iusto, laudantium facilis, ab harum optio veritatis doloremque dolore
+            aspernatur fuga error delectus. Nesciunt, debitis.Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 
-          <p class="textoArticulo my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione unde recusandae voluptates pariatur sapiente nostrum iusto, laudantium facilis, ab harum optio veritatis doloremque dolore aspernatur fuga error delectus. Nesciunt, debitis.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+          <p class="textoArticulo my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione unde recusandae
+            voluptates pariatur sapiente nostrum iusto, laudantium facilis, ab harum optio veritatis doloremque dolore
+            aspernatur fuga error delectus. Nesciunt, debitis.Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 
           <!-- COMPARTIR EN REDES -->
           <div class="float-right my-3 btnCompartir">
@@ -172,9 +113,10 @@ CONTENIDO BLOG
 
           </div>
 
+          <!-- AVANZAR - RETROCEDER -->
           <div class="clearfix"></div>
           <div class="d-md-flex justify-content-between my-3 d-none">
-            
+
             <a href="articulos.html">Leer artículo anterior</a>
 
             <a href="articulos.html">Leer artículo siguiente</a>
@@ -192,7 +134,8 @@ CONTENIDO BLOG
                     <img src="img/articulo05.jpg" alt="Lorem ipsum" class="img-fluid">
                     <h6 class="py-2">Type something here</h6>
                   </a>
-                  <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe doloribus maxime consectetur consequatur et vitae placeat minima...</p>
+                  <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe doloribus maxime
+                    consectetur consequatur et vitae placeat minima...</p>
                 </li>
 
                 <li class="px-3">
@@ -200,7 +143,8 @@ CONTENIDO BLOG
                     <img src="img/articulo02.jpg" alt="Lorem ipsum" class="img-fluid">
                     <h6 class="py-2">Type something here</h6>
                   </a>
-                  <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe doloribus maxime consectetur consequatur et vitae placeat minima...</p>
+                  <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe doloribus maxime
+                    consectetur consequatur et vitae placeat minima...</p>
                 </li>
 
                 <li class="px-3">
@@ -208,7 +152,8 @@ CONTENIDO BLOG
                     <img src="img/articulo03.jpg" alt="Lorem ipsum" class="img-fluid">
                     <h6 class="py-2">Type something here</h6>
                   </a>
-                  <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe doloribus maxime consectetur consequatur et vitae placeat minima...</p>
+                  <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe doloribus maxime
+                    consectetur consequatur et vitae placeat minima...</p>
                 </li>
 
                 <li class="px-3">
@@ -216,7 +161,8 @@ CONTENIDO BLOG
                     <img src="img/articulo04.jpeg" alt="Lorem ipsum" class="img-fluid">
                     <h6 class="py-2">Type something here</h6>
                   </a>
-                  <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe doloribus maxime consectetur consequatur et vitae placeat minima...</p>
+                  <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe doloribus maxime
+                    consectetur consequatur et vitae placeat minima...</p>
                 </li>
 
               </ul>
@@ -250,7 +196,8 @@ CONTENIDO BLOG
 
             <div class="col-9 col-sm-8 col-lg-10 p-2 text-muted">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, autem iste expedita odio, omnis eaque, officia debitis itaque magni 
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, autem iste expedita odio, omnis eaque,
+                officia debitis itaque magni
                 eos aut corrupti est. Culpa aut tempore natus, debitis odit neque.
               </p>
               <span class="small float-right">> Arturo Quihuis | 03.11.2022</span>
@@ -258,7 +205,8 @@ CONTENIDO BLOG
 
             <div class="col-9 col-sm-8 col-lg-10 p-2 text-muted">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, autem iste expedita odio, omnis eaque, officia debitis itaque magni 
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, autem iste expedita odio, omnis eaque,
+                officia debitis itaque magni
                 eos aut corrupti est. Culpa aut tempore natus, debitis odit neque.
               </p>
               <span class="small float-right">> Iker Marcor | 03.11.2022</span>
@@ -303,17 +251,16 @@ CONTENIDO BLOG
         </div>
 
       </div>
-    
 
-<?php
-get_sidebar();
-?>
+      <!-- COLUMNA DERECHA -->
+      <?php get_sidebar(); ?>
 
-            </div>
-        </div>
     </div>
+  </div>
 </div>
 
-<?php
-get_footer();
-?>
+
+<!--==================================
+FOOTER
+====================================-->
+<?php get_footer(); ?>
