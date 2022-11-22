@@ -10,7 +10,7 @@ function gamerev_archivos() {
 	ARCHIVOS DE CSS
 	=============================================*/
 	wp_enqueue_style( 'bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css', array(), '1.1', 'all');
-	//wp_enqueue_style( 'googleFonts', 'https://fonts.googleapis.com/css?family=Chewy|Open+Sans:300,400', array(), '1.1', 'all');
+	wp_enqueue_style( 'googleFonts', 'https://fonts.googleapis.com/css?family=Chewy|Open+Sans:300,400', array(), '1.1', 'all');
 	wp_enqueue_style( 'jdSlider', get_template_directory_uri() . '/css/plugins/jquery.jdSlider.css', array(), '1.1', 'all' );
 	wp_enqueue_style( 'style', get_template_directory_uri() . '/css/style.min.css', array(), '1.1', 'all' );
 
