@@ -1,8 +1,18 @@
 <div class="container-fluid menu">
 
-	<a href="#" class="btnClose">X</a>
+ 	<a class="btnClose">X</a>
 
-	<ul class="nav flex-column text-center">
+	<?php 
+		wp_nav_menu(array(
+			"theme_location" => "header_menu",
+			"container" => "div",
+			"container_class" => "menu-content",
+			"items_wrap" => '<ul class="nav flex-column text-center">%3%s</ul>',
+			"menu_class" => "nav-item"
+		));
+
+	?>
+<!-- 	<ul class="nav flex-column text-center">
 		<li class="nav-item">
 			<a class="nav-link text-white" href="categorias.html">Noticias de hoy</a>
 		</li>
@@ -21,5 +31,5 @@
 		<li class="nav-item">
 			<a class="nav-link text-white" href="categorias.html">Top videojuegos gratis</a>
 		</li>
-	</ul>
+	</ul> -->
 </div>

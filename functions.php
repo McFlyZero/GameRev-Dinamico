@@ -10,6 +10,7 @@ function gamerev_archivos() {
 	ARCHIVOS DE CSS
 	=============================================*/
 	wp_enqueue_style( 'bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css', array(), '1.1', 'all');
+	wp_enqueue_style( 'googleFonts', 'https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto+Serif:opsz,wght@8..144,300', array(), '1.1', 'all');
 	wp_enqueue_style( 'googleFonts', 'https://fonts.googleapis.com/css?family=Chewy|Open+Sans:300,400', array(), '1.1', 'all');
 	wp_enqueue_style( 'jdSlider', get_template_directory_uri() . '/css/plugins/jquery.jdSlider.css', array(), '1.1', 'all' );
 	wp_enqueue_style( 'style', get_template_directory_uri() . '/css/style.min.css', array(), '1.1', 'all' );
@@ -48,8 +49,20 @@ function gamerev_setup() {
 		'header-menu'   => __( 'Header Menu', 'gamerev' )
 	) );
 
+	/*=============================================
+	AGREGAR FILTROS PARA PERSONALIZAR EL MENÚ
+	=============================================*/
+	add_filter("nav_menu_link_attributes","agregarClases", 10, 3);
+
+	function agregarClases($atts, $item, $args){
+
+		$class = "nav-link text-white";
+		$atts["class"] = $class;
+		return $atts;
+	}
+
 }
 
-add_action( 'wp_enqueue_scripts', 'gamerev_setup' );
+add_action( 'after_setup_theme', 'gamerev_setup' );
 
 ?>

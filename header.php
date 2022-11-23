@@ -9,6 +9,10 @@
   <link rel="icon" href="img/GameRev-icon.png">
   <?php wp_head(); ?>
 
+</head>
+
+<body>
+
   <!--==================================
   PRELOAD
   ====================================-->
@@ -25,8 +29,6 @@
     <div id="estadoCarga"></div>
 
   </div>
-  
-
 
   <!--==================================
   CABECERA
@@ -112,9 +114,7 @@
       </div>
     </div>
   </header>
-</head>
 
-<body>
 
 <!-- REDES SOCIALES PARA MÓVIL-->
       <div class="d-block d-md-none redes redesMovil p-0 bg-white w-100 pt-2">
