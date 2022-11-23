@@ -2,8 +2,9 @@
 
  	<a class="btnClose">X</a>
 
-	<?php 
-		wp_nav_menu(array(
+	<?php
+
+	wp_nav_menu(array(
 			"theme_location" => "header_menu",
 			"container" => "div",
 			"container_class" => "menu-content",
@@ -12,7 +13,8 @@
 		));
 
 	?>
-<!-- 	<ul class="nav flex-column text-center">
+<!-- </div> -->
+ 	<ul class="nav flex-column text-center">
 		<li class="nav-item">
 			<a class="nav-link text-white" href="categorias.html">Noticias de hoy</a>
 		</li>
